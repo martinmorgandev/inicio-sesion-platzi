@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#f7a399, #ef6351);
+    color: white;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo{
+    /* text-align: center; */
+    padding: 20px;
+}
+.container__phone{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 80vh;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    padding: 30px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    width: 220px;
+}
+
+.form button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 30px 5px 30px;
+    margin: 30px;
+    border: none;
+    padding: 10px;
+    width: 300px;
+}
+
+.form input::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+.forget{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget a{
+    font-style: none;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social-media{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    margin: -20px;
+}
+.facebook p{
+    margin-left: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: end;
+}
+
+.footer .footer-text{
+    margin-left: 30px;
+}
